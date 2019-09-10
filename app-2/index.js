@@ -5,7 +5,7 @@ const port = process.env.PORT || 8001;
 
 app.get("/", (req, res) => res.send("Hello, this is app-2"));
 app.get("/redirect", (req, res) => {
-    res.redirect("http://localhost:8000")
+    res.redirect("https://example-1-1.herokuapp.com/")
 });
 
 app.listen(port, () => {
