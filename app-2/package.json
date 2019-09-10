@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd app-1 && npm install && cd .. && cd app-2 && npm install && cd..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
