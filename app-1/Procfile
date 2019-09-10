@@ -1,1 +1,1 @@
-web: bash -c "node index.js"
+web: bash -c "cd app-1/ && node index.js && cd .."
